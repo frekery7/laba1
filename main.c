@@ -22,6 +22,7 @@ int main(int argc, char **argv) {
 
     if (argc != 3) {
         fprintf(stderr, "Error: expected <command> <csv-file>\n");
+        print_help();
         return 2;
     }
 
